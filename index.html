@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="top">
+    <h1 class="head">Угадай число!</h1>
+
+    <p class="text">Вы должны ввести любое число между 1 и 100. У вас будет 10 попыток. Если число больше, программа скажет что ваше
+        число больше, если меньше - скажет, что меньше!</p>
+
+
+    <div class="form">
+        <label for="guessField">Введите число</label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Нажми" class="guessSubmit">
+    </div>
+
+    <div class="resultParas"> <span class="txt">Тут будет Ваш результат...</span> 
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+</div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>

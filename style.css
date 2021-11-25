@@ -1,0 +1,75 @@
+body{
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+font-family: 'Sacramento', cursive;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: rgb(91, 156, 241);
+    border-radius: 20px;
+   
+}
+.top{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+  
+}
+.head{
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(84, 29, 134);
+}
+.text{
+    font-family: 'Sacramento', cursive;
+    max-width: 700px;
+    padding: 15px;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    background-color: rgb(100, 216, 237);
+    color: darkblue;
+}
+.form{
+    display: grid;
+    justify-content: center;
+}
+.guessField{
+    width: 50px;
+    height: 30px;
+    font-size: 36px;
+    font-family: 'Kaushan Script', cursive;
+    border-radius: 20px;
+    background-color: blueviolet;
+    margin: auto ;
+}
+.guessField:hover{
+   
+    background-color: rgb(128, 7, 241);
+}
+.guessSubmit{
+    width: 150px;
+    height: 50px;
+    font-size: 20px; 
+    font-family: 'Kaushan Script', cursive;
+    border-radius: 20px;
+    background-color: rgb(192, 45, 9);
+    margin: 15px auto ; 
+    margin-top: 15px;  
+
+}
+.guessSubmit:hover{
+    background-color: crimson;
+}
+.resultParas{
+    margin: 20px auto;
+    width: 500px;
+    height: 200px;
+    border: 3px solid rgb(3, 245, 76);
+    
+    border-radius: 25px;
+}
+.txt{
+    color: rgb(209, 243, 17);
+    font-size: 30px;
+    opacity: 0.5;
+}
