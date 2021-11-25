@@ -1,1 +1,1 @@
-# minigame
+It's my first minigame
