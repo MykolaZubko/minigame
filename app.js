@@ -15,6 +15,7 @@ function checkGuess(){
     var userGuess = Number(guessField.value);
     if (guessCount === 1){
         guesses.textContent = 'Ваше число: ';
+        txt.textContent = 'Верю в тебя';
     }
     guesses.textContent += userGuess + ' ';
 
@@ -22,11 +23,13 @@ function checkGuess(){
         lastResult.textContent = 'Поздравляем!! Ты угадал';
         lastResult.style.backgroundColor = 'green';
         paras.style.backgroundColor = 'green';
+        txt.textContent = 'Ураааааа!!!!';
         lowOrHi.textContent = '';
         setGameOver();
         
     } else if (guessCount === 10){
         lastResult.textContent = 'Ты проиграл, лузер!!';
+        txt.textContent = 'В следующий раз тебе обязательно повезет';
         paras.style.backgroundColor = 'red';
         setGameOver();
     }else {
@@ -70,6 +73,8 @@ function resetGame(){
     guessField.focus();
 
     lastResult.style.backgroundColor = 'white';
+    txt.textContent = 'Тут будет ваш результат...';
+    paras.style.backgroundColor = 'blueviolet';
 
     randomNumber = Math.floor(Math.random() * 100) + 1;
 }
